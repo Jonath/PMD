@@ -1,0 +1,182 @@
+-------------------------------------------------------------------------------
+
+	添付FILEの簡単な説明です。
+	DOCがないものは、使い方も簡単な物なので、Usageを参考にして下さい。
+
+-------------------------------------------------------------------------------
+PMD      COM
+PMD48L   COM	自己解凍差分↓
+		(PMDB2    COM)
+		(PMD86    COM)
+		(PMDPPZ   COM)
+		(PMDPPZE  COM)
+		(PMDVA    COM)
+		(PMDVA1   COM)
+PMD      DOC
+UPDATE   DOC
+	ドライバ本体です。最初にPMD48L.COMを実行して下さい。
+	音源によって常駐するドライバは変わります。
+	詳しくは各DOCを参照して下さい。
+
+P86DRV   COM
+P86DRV   DOC
+	PMD86用の PCMデータ管理TSRです。
+	PMD86でPCMを使用する曲を演奏する際に必要になります。
+
+PDR      COM
+PPSDRV   COM
+PUT      COM
+MAKEPPS  EXE
+PPS      DOC
+PDR      DOC
+PPSDRV   DOC
+PUT      DOC
+MAKEPPS  DOC
+PPS01    CFG
+PPS01    PPS
+	PMD/PMDB2/PMD86用の、SSGPCMドライバ関連です。
+	PDRが演奏、PPSDRVがPCMデータ管理、PUTは単純発音(PDRのみ常駐で可能)、
+	MAKEPPSは.PPSファイルの作成をそれぞれ行います。
+	PPS01.*はサンプルPPSファイルです。
+
+PMDDATA  DOC
+	PMDの INT call表 及び 公開workの仕様書です。
+
+MC       EXE
+MCH      EXE
+MC       DOC
+MCH      DOC
+	MMLコンパイラです。MCH.EXEは評価版で、.Mファイルを作成せずに
+	そのまま演奏します。
+
+PMDMML   MAN
+	MMLマニュアルです。
+
+PMDVSYNC COM
+	PMD 4.0l以前用のアプリケーションが動作しない場合に、動作させる
+	ようにするTSRです。
+
+PMDVER   COM
+PMDVER   DOC
+	PMDの種類、Version番号を表示します。
+
+PMP      COM
+PMP      DOC
+	プレイヤーです。
+
+PMDPCM   EXE
+PMDPCM86 EXE
+PMDPCM   DOC
+	ADPCM(PMDB2)/PCM(PMD86)の定義、一括FILE(PPC/P86)作成プログラムです。
+
+PCMHEAD  DOC
+	各PCMデータ (PPS/PPC/P86)の仕様書です。
+
+PCM      EXE
+PCM      DOC
+	ADPCM用の PCM関連ツールです。
+
+VED      EXE
+VED      DOC
+	FM音源音色エディタです。
+
+EFFEC    FF 
+PC88     FF 
+X68ED    FF 
+	サンプルの音色データです。
+	EFFEC.FFはPMD標準、PC88.FFはPC88標準、
+	X68ED.FFはX68標準音色にDT2関連の修正を加えた音色データです。
+
+VSET     COM
+VSET     DOC
+	PMDに音色データを設定します。
+
+EFF      COM
+EFF      DOC
+	PSG効果音を発声します。SSGPCMを使用している場合は、@128からが
+	SSGPCM音色となります。
+
+PESET    COM
+PESET    DOC
+	PSG効果音を定義します。但しまだPSG効果音エディタは存在しません。
+	EFFEC.INCとEFCDRV.ASMを解析してデータを作成すればこれで定義する
+	事が可能です。
+
+EFC      EXE
+ESET     COM
+FEFF     COM
+PM2EFC   EML
+PM2EFC   EFC
+	FM効果音関連です。EFCが効果音コンパイラ、ESETが効果音設定、
+	FEFFが効果音発音プログラムになっています。
+	PM2EFC.* はサンプル効果音です。
+
+PEFF     COM
+PEFF86   COM
+PEFF     DOC
+	PCM効果音関連です。PEFFがPMDB2用、PEFF86がPMD86用となっています。
+
+INT      COM
+INT      DOC
+	現在の INT 使用状況を表示します。
+
+EXTP     EXE
+	68用のPMD .P ファイルを分割します。
+
+MMLTONE  EXE
+MMLTONE  DOC
+	.FF ファイルを .MML に変換します。 VEDの f･10とほぼ同じ機能です。
+
+MTONE    EXE
+MTONE    DOC
+	.FF ファイル内の音色を移動(COPY)します。
+
+VINDEX   EXE
+VINDEX   DOC
+	.FF ファイル内の各音色名を .IDXファイルにまとめます。
+
+PPSDIV   COM
+PPCDIV   COM
+P86DIV   COM
+PPSDIV   DOC
+PPCDIV   DOC
+P86DIV   DOC
+	PPS/PPC/P86ファイルをそれぞれ分割します。
+
+CVPPC    COM
+CVPPC    DOC
+	ver.4.3以前の .PPCデータを、 ver.4.4以降で使えるようにする
+	コンバータです。
+
+P862PPC  COM
+PPC2P86  COM
+P862PPC  DOC
+PPC2P86  DOC
+	PMDB2のPPCファイルと、PMD86のP86ファイルを相互に変換するツールです。
+
+PPC2PVI  COM
+PVI2PPC  COM
+PPC2PVI  DOC
+PVI2PPC  DOC
+	FMP という FM音源ドライバ(fsw) のADPCMデータ、.PVIと、PMDの.PPCを
+	相互に変換するツールです。
+
+FM       COM
+ONG      BAT
+ONGCHK   COM
+ONGCHK   DOC
+	音源をCHECKするバッチです。ゲーム等に組み込む際に参考にして下さい。
+	FM.COMでは、音源の情報も同時に表示します。
+
+PCMCUT   COM
+PCMMAX   COM
+PCMPEAK  COM
+PCMSHAPE COM
+PCMUTIL  DOC
+	PCMデータ録音補助ツール群です。
+
+README   DOC
+	このファイル。
+
+ＫＡＪＡ
+

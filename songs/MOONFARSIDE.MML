@@ -18,46 +18,113 @@
 @250 5 7 31 2 6 8 6 29 0  4 0 0 0 31  2 6  8  6  0 0 4 4 0 0 31  0 6  8 6  0 0  4 4 0 0 31  6 6  8  6 0 0 2 4 0 0   ; LEAD 2
 @251 5 7 31 0 0 0 0 28 0  8 0 0 0 31 14 3 15  3  0 0 2 0 0 0 31 14 3 15 3  0 0  6 0 0 0 31 14 3 15  3 0 0 6 0 0 0   ; ORGAN
 
-; INTRO LEAD
+; LEAD
 !A1 d+4 d4 c4 < a+4 [f4 g4 a+4]2 f4 g4
 !A2 d+1
 !A3 c1
 !A4 r2 d4 d+4
 !A5 c2 < a+4 > c4 <
 !A6 g2 f4 g4
-!A7 c4 d+4 r4 d+2
+!A7 c4 d+4 r4 d+2 r2.
 
-; INTRO BASS
+; MAIN MELODY
+!A8 [c8. r16]3 r4
+!A9 g2 r4 f2 g4 a+2
+
+!B5 d+2 r4 d2 d+4 f2
+
+!F1 [d+8. r16]3 d+8 r8
+!F2 g2 r4 f2 g4 a+2
+
+; BASS
 !B1 c4 g4 > c4 d+4 g4 d+4 c4 < g4
 !B2 < g+4 > d+4 g+4 > c4 d+4 c4 < g+4 d+4
+!B3 c4 d+4 g4 d+4
+!B4 d+4 g4 > c4 < g4
 
-; INTRO STRINGS 
+; STRINGS 
 !C1 g1&1&1&1
 !C2 g+1&1&1&1
+!C3 g1&1&1&1&1&1&1&1
+!C4 d+1&1&1&1
 
 !D1 c1&1&1&1
 !D2 d+1&1&1&1
+!D3 c1&1&1&1&1&1&1&1
+!D4 g1&1&1&1
 
 !E1 d2
 !E2 d+1&1&1&1
+!E3 g1&1&1&1
+
+; MELODY
 
 A t133
 A @101 o5 v10
 B @250 o3 v7
 CD @068 o3 v10
 E @068 o4 v10
-
-; INTRODUCTION
+F @101 o4 v10
 
 A !A1 !A2 > !A1 > !A3 <
 A !A1 !A2 > !A1 > !A3 <
-;A !A2 !A4 !A5 !A6 !A7
+A !A2 !A4 !A5 !A6 !A7
+A r1 >> !A8 !A9
 
 B [!B1]2 [!B2]2 [!B1]2 [!B2]2
+B [r1]4 [!B3 !B4]2
+B o5 @101
+B !B5
 
-C [!C1 !C2]2
-D !D1 [!D2]3
+C [!C1 !C2]2 !C3 !C4
+D !D1 [!D2]3 !D3 !D4
 E [r1]7 r2 !E1 [!E2]2
+E [r1]4 !E2 !E3
 
-I [r1]16
-;I [r1]21 r4
+F [r1]23 !F1
+F !F2 
+
+;I [r1]28
+
+;Rhythm Channel K => SSG Channel I (= SSG#2) + PCM Rhythm Module
+;SSG Rhythm Presets
+;@#    RHY## L/R Percussion    Translation
+;@1    RHY#0 LR  Bass Drum        o1 b
+;                                 o2 c
+;@2    RHY#1 LR  Snare Drum 1     o2 d
+;@4    RHY#4  R  Low Tom          o2 f
+;                                 o2 a
+;@8    RHY#4 LR  Middle Tom       o2 b
+;                                 o3 c
+;@16   RHY#4 L   High Tom         o2 g
+;                                 o3 d
+;@32   RHY#5 LR  Rim Shot         o1 g
+;                                 o2 c+
+;@64   RHY#1 LR  Snare Drum 2     o2 e
+;@128  RHY#3 L   Hi-Hat Close     o2 f+    \h
+;               (Hi-Hat Pedal)    o2 g+    \h
+;@256  RHY#2 L   Hi-Hat Open      o2 a+    \h
+;@512  RHY#2 LR  Crash Cymbal 1   o3 c+
+;@1024 RHY#2  R  Ride Cymbal      o3 d+
+;                                 o3 b
+
+R0 @256c r2.&8.
+R1 r1&1
+R2 @1c r2.&8. @4c r2.&8.
+R3 r2 @128c r8. @256c r8.
+R4 @257c r2.&8.
+R5 @1c r2.&8.
+R6 @129c r4.. @1c r4..
+R7 @1c r4.. @1c r4..
+R8 @1c r4.. @129c r8. @256c r8.
+R9 @129c r4.. @1c r4..
+; debug 11
+R10 @257c r8. @128c r8. @1c r4..
+R11 
+
+K l16
+K R0 R1 R2 R1 R3
+K R4 [R5]3 R6 [R7]2 R8
+K R9 R10
+
+I [r1]18

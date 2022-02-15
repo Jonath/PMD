@@ -109,21 +109,23 @@ D o3
 
 ; INTRODUCTION
 
-;A !A1  !A2  !A3  !A4
-;A !A5  !A2  !A3  !A6
-;A !A7  !A2  !A7  !A4
-;A !A7  !A2  !A7  !A8
+A !A1  !A2  !A3  !A4
+A !A5  !A2  !A3  !A6
+A !A7  !A2  !A7  !A4
+A !A7  !A2  !A7  !A8
 
-;B !B1 !B2 !B3 !B4
-;B !B5 !B2 !B3 !B6
-;B !B7 !B2 !B7 !B4
-;B !B7 !B2 !B7 !B8
+B !B1 !B2 !B3 !B4
+B !B5 !B2 !B3 !B6
+B !B7 !B2 !B7 !B4
+B !B7 !B2 !B7 !B8
 
-;C [!C1 !C2]4
-;C [!C3 !C4]4
+C [!C1 !C2]4
+C [!C3 !C4]4
 
-;D [!D1 !D2]4
-;D [!D3 !D4]4
+D [!D1 !D2]4
+D [!D3 !D4]4
+
+GHI [r1]16
 
 ; MELODY 1
 
@@ -162,7 +164,8 @@ AG !A22 !A23 !A26 !A27
 BH !B23 !B24 !B25 !B26
 BH !B23 !B24 !B27 !B28
 
+CD [r1]36
+
 I [r1]36
-;I [r1]23
 
 ;218 mesures!

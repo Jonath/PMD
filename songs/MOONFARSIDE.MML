@@ -57,35 +57,6 @@
 !E2 d+1&1&1&1
 !E3 g1&1&1&1
 
-; MELODY
-
-A t133
-A @101 o5 v10
-B @250 o3 v7
-CD @068 o3 v10
-E @068 o4 v10
-F @101 o4 v10
-
-A !A1 !A2 > !A1 > !A3 <
-A !A1 !A2 > !A1 > !A3 <
-A !A2 !A4 !A5 !A6 !A7
-A r1 >> !A8 !A9
-
-B [!B1]2 [!B2]2 [!B1]2 [!B2]2
-B [r1]4 [!B3 !B4]2
-B o5 @101
-B !B5
-
-C [!C1 !C2]2 !C3 !C4
-D !D1 [!D2]3 !D3 !D4
-E [r1]7 r2 !E1 [!E2]2
-E [r1]4 !E2 !E3
-
-F [r1]23 !F1
-F !F2 
-
-;I [r1]28
-
 ;Rhythm Channel K => SSG Channel I (= SSG#2) + PCM Rhythm Module
 ;SSG Rhythm Presets
 ;@#    RHY## L/R Percussion    Translation
@@ -122,9 +93,58 @@ R9 @129c r4.. @1c r4..
 R10 @257c r8. @128c r8. @1c r4..
 R11 
 
+; INTRODUCTION
+
+A t133
+A @101 o5 v10
+B @250 o3 v7
+CD @068 o3 v10
+E @068 o4 v10
+F @101 o4 v10
+
+A !A1 !A2 > !A1 > !A3 <
+B [!B1]2 [!B2]2
+
+C !C1 !C2
+D !D1 !D2
+E [r1]7 r2 !E1
+
+F [r1]8
+I [r1]8
+
 K l16
 K R0 R1 R2 R1 R3
-K R4 [R5]3 R6 [R7]2 R8
-K R9 R10
 
-I [r1]18
+; INTRODUCTION 2
+A t138
+A !A1 !A2 > !A1 > !A3 <
+B [!B1]2 [!B2]2
+
+C !C1 !C2
+D [!D2]2
+E [!E2]2
+
+F [r1]8
+I [r1]8
+
+K R4 [R5]3 R6 [R7]2 R8
+
+; TRANSITION
+
+A !A2 !A4 !A5 !A6 !A7
+A r1 >> !A8 !A9
+
+B [r1]4 [!B3 !B4]2
+B o5 @101
+B !B5
+
+C !C3 !C4
+D !D3 !D4
+E [r1]4 !E2 !E3
+
+F [r1]7 !F1
+F !F2 
+
+I [r1]12
+
+K R9 R10

@@ -1,0 +1,260 @@
+#Title        Welcome to the Moon Tour
+#Composer     ZUN
+#Arranger     Jonath
+#Option       /v/c
+#DT2Flag      on
+#Filename     .M2
+#Tempo        80
+
+@011 3 7 31 4 1 2 3 32 0  6 7 0 0 31  0 0  2 15 25 2 2 3 0 0 31 15 0  2 5  0 2  0 7 0 0 31  0 0  8  2 0 0 2 3 0 0   ; GUITAR
+@012 4 7 21 4 2 4 2 40 0 12 3 0 0 24 12 4  6  2  0 0 4 7 0 1 21  4 2  4 2 35 0  6 7 0 0 24 12 4  6  2 0 0 2 3 0 1   ; PIANO
+@023 4 7 31 0 0 2 0 30 3  4 3 0 0 31  2 0  7  3  0 0 4 3 0 0 31  0 0  2 0 31 3  2 7 0 0 31  2 0  7  3 0 0 4 7 0 0   ; TRUMPET
+@030 4 6 30 1 0 1 1 24 3  4 3 0 0 13  2 0  6  0  0 1 8 3 0 0 30  1 0  1 1 24 3  4 7 0 0 13  2 0  6  0 0 1 8 7 0 0   ; CHORD
+@068 2 7 14 6 2 6 1 25 2  2 4 0 0 17  8 2  9  1 31 1 6 5 0 0 20  7 1  6 2 42 0  2 3 0 0 17  4 1  8  2 0 0 4 2 0 0   ; VIOLIN
+@074 0 4 31 7 7 9 2 28 3  6 6 0 0 31  6 6  9  1 58 3 5 6 0 0 31  9 6  9 1 22 2  0 6 0 0 31  6 8  9 15 0 2 1 6 0 0   ; BASS
+@099 5 7 31 0 0 0 0 29 0  1 0 0 0 31 14 3 15  3  0 0 1 0 0 0 31 14 3 15 3  0 0  1 0 0 0 31 14 3 15  3 0 0 1 0 0 0   ; SYNTH
+@101 4 7 28 0 8 0 3 32 2 12 3 0 0 26 10 7  6  2  0 1 4 3 0 0 28  0 8  0 3 30 2 12 7 0 0 26 10 7  6  2 0 1 4 7 0 0   ; PIANO
+@181 4 7 31 0 0 0 0 27 0  8 7 0 0 31 16 0  8  2  0 0 4 7 0 0 31  0 0  0 0 30 0  8 3 0 0 31 16 0  8  2 0 0 4 3 0 0   ; B PIANO
+@250 5 7 31 2 6 8 6 29 0  4 0 0 0 31  2 6  8  6  0 0 4 4 0 0 31  0 6  8 6  0 0  4 4 0 0 31  6 6  8  6 0 0 2 4 0 0   ; LEAD
+@251 5 7 31 0 0 0 0 28 0  8 0 0 0 31 14 3 15  3  0 0 2 0 0 0 31 14 3 15 3  0 0  6 0 0 0 31 14 3 15  3 0 0 6 0 0 0   ; ORGAN
+
+; LEAD
+!A1 a8  > e8  < b8  > e8    c8    e8    d8   e8  < ; lasts 1
+!A2 f+8 > c+8 < g+8 > c+8 < a8  > c+8 < b8 > c+8 < ; lasts 1
+!A3 f+8 > c+8 < g+8 > c+8 < a+8 > c+8 < b8 > c+8 < ; lasts 1
+
+; CHORD
+!B1 a1+1      f+1+1      a1+1      a1+1      ; lasts 8
+!B2 f+1  e1   c+1+1      f+1 e1    c+1+1     ; lasts 8
+
+!C1 e1+1      c+1+1      e1+1      f+1+1     ; lasts 8
+!C2 a1   g+1  f+1+1      a1 g+1    f+1.      ; lasts 7.5
+
+!D1 a1+1+1+1+1+1         >         c+1+1+1   ; lasts 9
+!D2 < b2 > e2 c+1+1+1    < b2 > e2 c+1+1     ; lasts 7
+
+; BASS
+!E1 a1+1      f+1+1      ; lasts 4
+!E2 d1 e1     f+1+1      ; lasts 4
+
+; PIANO
+!F1 f+4. g+4. a4 b4. > c+4. e4 c+4. < b4.                     ; lasts 2.75  
+!F2 a4 g+4. b4. > e4 < a+4. b4. > c+4                         ; lasts 2.25
+!F3 f+2 c+8 a8 g+8 < b8                                       ; lasts 1
+
+; SSG
+!G1 e1 e1 f+1 f+1      ; lasts 4
+!G2 f+1+1+1+1          ; lasts 4
+
+; DRUMS
+R0 [@1c]8
+R1 [@1c]7 @2c
+R2 [@1c @2c]4
+R3 @512c4 r2+8 [@128c16]2 @1c8 [@128c8 @1c8]2 [@2c16]6
+
+A t80
+
+; START
+;ABCDEFGH r1+1
+;K R0
+
+; LOCAL LOOP BEGIN
+;ABCDEFGHK [
+
+; INTRO
+
+;A @074 o5 V114   ; @099
+;A [[!A1]2 [!A2]2]2 [!A2]6 [!A3]2
+;
+;B @030 o2 V104
+;B !B1 !B2
+;
+;C @030 o2 V104
+;C !C1 !C2
+;C @101 o3 V114
+;C !C3
+;
+;D @030 o3 V104
+;H @3 o4 v11
+;DH !D1 !D2
+;
+;E @074 o3 V114
+;E [!E1]2 [!E2]2
+;
+;F @101 o3 V114
+;F [r1]10
+;F !F1 !F2 !F3
+;
+;G @9 o4 v11
+;G [!G1]2 [!G2]2
+;
+;K [R0]3 R1 [R2]3 R3
+
+; LEAD
+!A4 [d16 d16 f+16 a16]2 [e16 e16 g+16 b16]2        ; lasts 1
+!A5 [f+16 f+16 a16 > c+16 <]2 [e16 e16 g+16 b16]2  ; lasts 1
+!A6 [f+16 f+16 a16 > c+16 <]4                      ; lasts 1
+
+; CHORD
+!B3 f+2 g+2 a2 b2 a2 g+4 e4     ; lasts 3
+!B4 f+1                         ; lasts 1
+!B5 f+4.                        ; lasts 1/4 + 1/8
+
+; TRUMPET
+!B6 a4 g+4 f+8                  ; lasts 1/2 + 1/8
+!B7 f+8 r4.                     ; lasts 1/2
+!B8 f+4. a4 g+4 f+8             ; lasts 1
+!B9 f+1                         ; lasts 1
+
+; PIANO
+!C3 a8 > e8 < b8 g+8 <          ; lasts 1/2
+!C4 d2 e2 f+2 e2 d2 e2 f+1      ; lasts 4
+
+!D3 < a8 > c+8 e8 < b8 g+8 e4 f+4 b8 > e8 d8             ; lasts 1.5
+!D4 c+8 < a8 g+8 e8 f+8. a8. > e16 f+16 e8 < b8 g+8 b8   ; lasts 1.5
+!D5 a1                                                   ; lasts 1
+!D6 > c+1                                                ; lasts 1
+
+!F4 > c+8 f+8 a8 g+8 e8 < b4 > c+4 f+8 b8 a8 g+8 e8 < b8 g+8  ; lasts 2
+!F5 a8. > c+8. g+16 a16 g+8 e8 < b8 > e8                      ; lasts 1
+!F6 c+1 <                                                     ; lasts 1
+!F7 f+1 <                                                     ; lasts 1
+
+; BASS
+!E3 [d8 a16 r16]2 [e8 b16 r16]2 [f+8 > c+16 r16 <]2           ; lasts 1.5
+!E4 [e8 b16 r16]2                                             ; lasts 1/2
+!E5 [f+8 > c+16 r16 <]2                                       ; lasts 1/2
+
+; SSG
+!G3 f+8 f+8 r8 g+8 r8 g+8 g+8 g+8          ; lasts 1
+!G4 a8  a8  r8 a8  r8 a8  g+8 g+8          ; lasts 1
+!G5 a1                                     ; lasts 1
+
+!H1 d8  d8  r8 d8  r8 e8 e8 e8             ; lasts 1
+!H2 f+8 f+8 r8 f+8 r8 e8 e8 e8             ; lasts 1
+!H3 f+1                                    ; lasts 1
+
+; DRUMS
+R4 [@129c8 @256c8 @130c16 @128c16 @256c8]4 ; lasts 2
+
+; MAIN MELODY
+
+;A @074 o4 V104
+;A [!A4 !A5 !A4 !A6]4
+;
+;B @030 o3 V104
+;B !B3 !B4 !B3 !B5
+;B @023 o5 V116 MWA0 MA24,1,4,3 *1
+;B !B6 [!B7]6 !B8 [!B7]6 !B9
+;
+;C @101 o2 V110
+;C [!C4]4
+;
+;D @101 o4 V110
+;D [!D3 !D4 !D5 !D3 !D4 !D6]2
+;
+;E @074 o3 V110
+;E [!E3 !E4 !E3 !E5]4
+;
+;F @101 o3 V110
+;F !F4 !F5 !F6
+;F !F4 !F5 !F7
+;F !F4 !F5 !F6
+;F !F4 !F5 !F7
+;
+;GH @1 l8 v15
+;G o4
+;H o3
+;G [!G3 !G4]7 !G3 !G5
+;H [!H1 !H2]7 !H1 !H3
+;
+;K [R4]8
+
+; PIANO
+!A7  f2 g2 a2 g2 f2 g2                ; lasts 3
+!A8  a2 > e8 c8 < b8 > c8 <           ; lasts 1
+!A9  e2 [e8]4                         ; lasts 1
+!A10 a4 > e4 d4 c4 <                  ; lasts 1
+!A11 f+4 > d4 c4 < a8 b8              ; lasts 1
+!A12 f4 > d8 e8 < g4 b8 > c8 < a4     ; lasts 1.25
+!A13 > e4 d8 c8 < b8 > c8 < a4        ; lasts 1
+!A14 > e4 d8 c8 < b8 > c8 < f+4 a4    ; lasts 1.25
+!A15 > d4 < e8 g8 f4 g8 a8            ; lasts 1
+!A16 g4 a8 b8 a4 > e4 <               ; lasts 1
+!A17 a8 b8 > c8 d8 <                  ; lasts 1/2
+
+; SYNTH
+!B10 a2 b8. > c8. d8                  ; lasts 1
+!B11 c8 < b8 g8 d8 e2                 ; lasts 1
+!B12 a4 > e4 d8. c8. < b8             ; lasts 1
+!B13 a8 g8 e8 d8 e2                   ; lasts 1
+!B14 c8 < b8 a8 g8 a2                 ; lasts 1
+!B15 a4 > e4 d8. e8. g8               ; lasts 1
+!B16 g+8. e8. d8 g+8 g+8 a8 b8        ; lasts 1
+!B17 > c2. d4 < a2. a8 b8             ; lasts 2
+!B18 > c4 < b4 a4 g4 e2. d8 e8        ; lasts 2
+!B19 e2. d8 e8 < a2. > e8 g8          ; lasts 2
+!B20 e4 g4 e4 d4                      ; lasts 1
+!B21 e2. b4                           ; lasts 1
+!B22 e1                               ; lasts 1
+
+!C5  c2 d8. e8. b8                    ; lasts 1
+!C6  a8 g8 d8 < b8 > c2               ; lasts 1
+!C7  c4 > c4 < b8. a8. g8             ; lasts 1
+!C8  e8 d8 c8 < b8 > c2               ; lasts 1
+!C9  c4 a4 g8. a8. > c8 <             ; lasts 1
+!C10 b8. g+8. b8 > e8 d8 c8 < b8      ; lasts 1
+!C11 > a2. b4 e2. e8 g8               ; lasts 2
+!C12 a4 g4 e4 d4 c2. < b8 > c8        ; lasts 2
+!C13 c2. < b8 > c8 < e2. a8 b8 >      ; lasts 2
+!C14 c4 d4 < b4 g4 a1                 ; lasts 2
+
+; CHORD
+!D7 < c2 d2 e2 d2                     ; lasts 2
+!D8 c2 d2 e1                          ; lasts 2
+!D9 c2 d2 e2 d2                       ; lasts 2
+!D10 c2 d2 < b2 > g+2                 ; lasts 2
+!D11 a1 > d1 < f2 g2                  ; lasts 3
+!D12 a1+1 > d1 < a2 b2                ; lasts 4
+!D13 c1                               ; lasts 1
+!D14 < a1                             ; lasts 1
+
+; BASS
+!E6  [f8 > c16 r16 <]2 g8. > d8. < g16 r16   ; lasts 1
+!E7  [a8 > e16 r16 <]3 g8 > d16 r16          ; lasts 1
+!E8  [< f8 > c16 r16]2 [< g8 > d16 r16]2     ; lasts 1
+!E9  [< a8 > e16 r16]4                       ; lasts 1
+!E10 [< e8 b16 r16]4                         ; lasts 1
+!E11 [a8 > e16 r16]4                         ; lasts 1
+!E12 [< f+8 > d16 r16]4                      ; lasts 1
+
+A @101 o3 V104
+A !A7 !A8 !A7 !A9
+A [!A10 !A11 !A12 !A13
+A  !A14 !A15 !A16 !A17]2
+
+B @099 o5 V112
+B !B10 !B11 !B12 !B13
+B !B10 !B14 !B15 !B16
+B [!B17 !B18 !B19 !B20 : !B21]2 !B22
+
+C @099 o5 V112
+C [!C5 !C6 !C7 : !C8]2 !C10
+C [!C11 !C12 !C13 !C14]2
+
+D @030 o4 V104
+D !D7 !D8 !D9 !D10
+D [!D11 !D12 : !D13]2 !D14
+
+E @074 o4 V110
+E [!E6 !E7 !E8 : !E9]2 !E10
+E [!E11 !E12 !E8 !E9
+E  !E9  !E12 !E8 !E9]2
+
+; @TODO FGHK
+; @TODO FIX CHANNELS
+
+; LOCAL LOOP END
+;ABCDEFGHK ]2
+
+I [r1]24

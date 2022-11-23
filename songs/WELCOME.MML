@@ -135,7 +135,8 @@ A t80
 !H3 f+1                                    ; lasts 1
 
 ; DRUMS
-R4 [@129c8 @256c8 @130c16 @128c16 @256c8]4 ; lasts 2
+R4 [@129c8 @256c8 @130c16 @128c16 @256c8]4                                                     ; lasts 2
+R5 [@129c8 @256c8 @130c16 @128c16 @256c8]3 @129c16 @2c16 @258c16 @2c16 @130c16 @128c16 @258c8  ; lasts 2
 
 ; MAIN MELODY
 
@@ -168,7 +169,7 @@ R4 [@129c8 @256c8 @130c16 @128c16 @256c8]4 ; lasts 2
 ;G [!G3 !G4]7 !G3 !G5
 ;H [!H1 !H2]7 !H1 !H3
 ;
-;K [R4]8
+;K [[R4]3 R5]2
 
 ; PIANO
 !A7  f2 g2 a2 g2 f2 g2                ; lasts 3
@@ -228,8 +229,52 @@ R4 [@129c8 @256c8 @130c16 @128c16 @256c8]4 ; lasts 2
 !E11 [a8 > e16 r16]4                         ; lasts 1
 !E12 [< f+8 > d16 r16]4                      ; lasts 1
 
+!F8  g+8. e8. d8 g+8 g+8 a8 b8 >             ; lasts 1
+!F9  c8 < b8 a8 g8 e4 d8 e8 <                ; lasts 1
+!F10 a2. a8 b8 >                             ; lasts 1
+!F11 c8 e8 b8 > c8 < b8 > c8 < g8 d8         ; lasts 1
+!F12 e2. b4 >                                ; lasts 1
+!F13 c8 d8 e8 < b8 b8 > c8 < g8 e8           ; lasts 1
+!F14 a2. > b4 >                              ; lasts 1
+!F15 a1                                      ; lasts 1
+
+; SSG
+
+!G6  [< f16 > c16 f16 a16]2 [< g16 > d16 g16 b16]2     ; lasts 1
+!G7  [< a16 > c16 e16 a16]3  < g16 > d16 g16 b16       ; lasts 1
+!G8  [< a16 > c16 e16 a16]4                            ; lasts 1
+!G9  [< e16 b16 > e16 b16]4                            ; lasts 1
+!G10 a2 g2 f+2 d2 f2 g2                                ; lasts 3
+!G11 a2 e1. d1                                         ; lasts 3
+!G12 c2 d2 e1                                          ; lasts 2
+!G13 [e8 >> c8 <<]2 [d8 >> c8 <<]2                     ; lasts 1
+!G14 [d8 >> d8 <<]2 [a8 >> d8 <<]2                     ; lasts 1
+!G15 [c8 >> c8 <<]2 [d8 >> : c8 <<]2 d8 <<             ; lasts 1
+!G16 [e8 >> e8 <<]2 < [a8 >>> e8 <<<]2                 ; lasts 1
+!G17 [a8 >>> e8 <<<]4                                  ; lasts 1
+!G18 [a8 >>> d8 <<<]4                                  ; lasts 1
+!G19 [f8 >>> c8 <<<]2 [g8 >>> d8 <<<]2                 ; lasts 1
+
+!H4  a8 > c8 < b8 > c8 < g8 b8 > d8 < g8                ; lasts 1
+!H5  a8 > e8 d8 e8 c8 < b8 a8 g8                        ; lasts 1
+!H6  f8 > c8 < b8 > c8 < g8 b8 > d8 < g8                ; lasts 1
+!H7  a8 > e8 d8 e8 < a8 > e8 d8 e8 <                    ; lasts 1
+!H8  e8 b8 a8 b8 > e8 < b8 > e8 g+8                     ; lasts 1
+!H9  e2 d2 d2 a2 c2 d2                                  ; lasts 3
+!H10 e2 < a1. a1                                        ; lasts 3
+!H11 f2 g2 a1                                           ; lasts 2
+!H12 [a8 >> a8 <<]2   [g8 >> a8 <<]2                    ; lasts 1
+!H13 [f+8 >> f+8 <<]2 [d8 >> f+8 <<]2                   ; lasts 1
+!H14 [f8 >> f8 <<]2   [g8 >> g8 <<]2                    ; lasts 1
+!H15 [e8 >> a8 <<]4                                     ; lasts 1
+!H16 [d8 >> f+8 <<]4                                    ; lasts 1
+
+; DRUMS
+R6 [@513c2 @2c4 : @2c4]2 @2c8 [@128c16]2 [@513c2 : @2c4 @2c4]2 @2c8 [@128c16]2 @2c8 [@128c16]2
+R7 [@513c2 @2c4 : @2c4]2 @2c8 [@128c16]2 @513c2 [@2c4]2 [@2c8 r16]2 @2c8 [@2c16]8
+ 
 A @101 o3 V104
-A !A7 !A8 !A7 !A9
+A  !A7 !A8 !A7 !A9 
 A [!A10 !A11 !A12 !A13
 A  !A14 !A15 !A16 !A17]2
 
@@ -250,6 +295,30 @@ E @074 o4 V110
 E [!E6 !E7 !E8 : !E9]2 !E10
 E [!E11 !E12 !E8 !E9
 E  !E9  !E12 !E8 !E9]2
+
+F @101 o3 V114 
+F [r1]7
+F !F8
+F !F9 !F10 !F11 !F12
+F !F9 !F10 !F13 !F14
+F !F9 !F10 !F11 !F12
+F !F9 !F10 !F13 !F15
+
+G V14
+G [[!G6 : !G7]2 : !G8]2 !G9
+G !G10 !G11 !G12
+G !G13 !G14 !G15 !G16
+G !G17 !G18 !G19 !G17
+
+H V14 o3
+H [!H4 !H5 !H6 : !H7]2 !H8
+H !H9 !H10 !H11
+H !H12 !H13 !H14 !H15
+H !H15 !H16 !H14 !H15
+
+K R6 R7
+K [R4]3 R5
+K [R4]3 R5  ; @TODO should be R8
 
 ; @TODO FGHK
 ; @TODO FIX CHANNELS

@@ -8,7 +8,7 @@
 
 @011 3 7 31 4 1 2 3 32 0  6 7 0 0 31  0 0  2 15 25 2 2 3 0 0 31 15 0  2 5  0 2  0 7 0 0 31  0 0  8  2 0 0 2 3 0 0   ; GUITAR
 @012 4 7 21 4 2 4 2 40 0 12 3 0 0 24 12 4  6  2  0 0 4 7 0 1 21  4 2  4 2 35 0  6 7 0 0 24 12 4  6  2 0 0 2 3 0 1   ; PIANO
-@023 4 7 31 0 0 2 0 30 3  4 3 0 0 31  2 0  7  3  0 0 4 3 0 0 31  0 0  2 0 31 3  2 7 0 0 31  2 0  7  3 0 0 4 7 0 0   ; TRUMPET
+@099 4 7 31 0 0 2 0 30 3  4 3 0 0 31  2 0  7  3  0 0 4 3 0 0 31  0 0  2 0 31 3  2 7 0 0 31  2 0  7  3 0 0 4 7 0 0   ; TRUMPET
 @030 4 6 30 1 0 1 1 24 3  4 3 0 0 13  2 0  6  0  0 1 8 3 0 0 30  1 0  1 1 24 3  4 7 0 0 13  2 0  6  0 0 1 8 7 0 0   ; CHORD
 @068 2 7 14 6 2 6 1 25 2  2 4 0 0 17  8 2  9  1 31 1 6 5 0 0 20  7 1  6 2 42 0  2 3 0 0 17  4 1  8  2 0 0 4 2 0 0   ; VIOLIN
 @074 0 4 31 7 7 9 2 28 3  6 6 0 0 31  6 6  9  1 58 3 5 6 0 0 31  9 6  9 1 22 2  0 6 0 0 31  6 8  9 15 0 2 1 6 0 0   ; BASS
@@ -141,7 +141,7 @@
 !F4  > c+8 f+8 a8 g+8 e8 < b4 > c+4 f+8 b8 a8 g+8 e8 < b8 g+8  ; lasts 2
 !F5  a8. > c+8. g+16 a16 g+8 e8 < b8 > e8                      ; lasts 1
 !F6  c+1 <                                                     ; lasts 1
-!F7  f+1 <                                                     ; lasts 1
+!F7  > f+1 <                                                   ; lasts 1
 !F8  g+8. e8. d8 g+8 g+8 a8 b8 >                               ; lasts 1
 !F9  c8 < b8 a8 g8 e4 d8 e8 <                                  ; lasts 1
 !F10 a2. a8 b8 >                                               ; lasts 1
@@ -198,38 +198,14 @@ R6 [@513c2 @2c4 : @2c4]2 @2c8 [@128c16]2 [@513c2 : @2c4 @2c4]2 @2c8 [@128c16]2 @
 R7 [@513c2 @2c4 : @2c4]2 @2c8 [@128c16]2 @513c2 [@2c4]2 [@2c8 r16]2 @2c8 [@2c16]8               ; lasts 4
 R8 [@129c8 @256c8 @130c8 [@2c16]6 [@2c8]2 @1537c8 @128c8 @2c8 @1537c16 [@2c16]5 [@2c32]8        ; lasts 2
 
-D   r%192
-D   [l1 o2 V105 @30
-D   e%192c+%192e%192f+%192ag+f+%192ag+f+%144
-D   @101 l8 V115
-D   >a>e<bg+
-D   l2 <[def+edef+1]4
-D   @23 V124 l8
-D   >>>c2d&d16e&e16bagd<b>c2c4>c4<b&b16a&a16gedc<b>c2
-D   c2d&d16e&e16bagd<b>c2c4a4g&g16a&a16>c<b&b16g+&g+16b>edc<b
-D   l4 [>a2&abe2&ee8g8agedc2&c<b8>c8c2&c<b8>c8<e2&ea8b8>cd<bga1]2]2
-D   @101 l8 V115 _M+
-D   l2 <<<[def+edef+1]4
-D   @23 V124 l8
-D   >>>c2d&d16e&e16bagd<b>c2c4>c4<b&b16a&a16gedc<b>c2
-D   c2d&d16e&e16bagd<b>c2c4a4g&g16a&a16>c<b&b16g+&g+16b>edc<b
-D   r2
-D   l4 >[a2&abe2&ee8g8agedc2&c<b8>c8c2&c<b8>c8<e2&ea8b8>cd<bga1]3
-D   V126 l4 >c2&cc8d8e2&ec8d8e8c8d8e8c8d8e8g8a2&aaragerbagaged8e1&e8
-D   V128 l8 ecdecdecde&e2egagedc4d4e2&e4g4a4g4e2b4a4f+4ede4c4<b4ab>c2&c4<ab
-D   >c<ab>c<ab>c<ab>c&c2c&c16r16e4<bcabgae1e2&e4dedededeega&a16r16a4b&b16r16>c&c16r16d4<e>d&d16r16e&e4
-D   ecdecdecde&e2egagedc4d4e2&e4g4a4g4e2b4a4f+4ede4c4<b4ab>c2&c4<ab
-
-; @TODO issue with C
-
 ; START
-ABCEFGH r1+1 [
+ABCDEFGH r1+1 [
 K R0 [
 
 ; INTRO
 
 A t80
-A @074 o5 V114   ; @099
+A @074 o5 V114
 A [[!A1]2 [!A2]2]2 [!A2]6 [!A3]2
 
 B @030 o2 V104
@@ -240,21 +216,21 @@ C !C1 !C2
 C @101 o3 V114
 C !C3
 
-;D @030 o3 V104
-;H @3 o4 v11
-;DH !D1 !D2
+D @030 o3 V104
+H @3 o4 v11
+DH !D1 !D2
 
-;E @074 o3 V114
-;E [!E1]2 [!E2]2
+E @074 o3 V114
+E [!E1]2 [!E2]2
 
-;F @101 o3 V114
-;F [r1]10
-;F !F1 !F2 !F3
+F @101 o3 V114
+F [r1]10
+F !F1 !F2 !F3
 
-;G @9 o4 v11
-;G [!G1]2 [!G2]2
+G @9 o4 v11
+G [!G1]2 [!G2]2
 
-;K [R0]3 R1 [R2]3 R3
+K [R0]3 R1 [R2]3 R3
 
 ; MAIN MELODY
 
@@ -263,115 +239,110 @@ A [!A4 !A5 !A4 !A6]4
 
 B @030 o3 V104
 B !B3 !B4 !B3 !B5
-B @023 o6 V116
+B @099 o6 V116
 B !B6 [!B7]6 !B8 [!B7]6 !B9
 
 C @101 o2 V110
 C [!C4]4
 
-;D @101 o4 V110
-;D [!D3 !D4 !D5 !D3 !D4 !D6]2
+D @101 o4 V110
+D [[!D3 !D4 : !D5]2 !D6]2
 
-;E @074 o3 V110
-;E [!E3 !E4 !E3 !E5]4
+E @074 o4 V110
+E [!E3 !E4 !E3 !E5]4
 
-;F @101 o3 V110
-;F [[!F4 !F5 : !F6]2 !F7]2
+F @101 o3 V110
+F [[!F4 !F5 : !F6]2 !F7]2
 
-;GH @1 l8 v15
-;G o4
-;H o3
-;G [!G3 !G4]7 !G3 !G5
-;H [!H1 !H2]7 !H1 !H3
+GH @1 l8 v15
+GH o4
+G [!G3 !G4]7 !G3 !G5
+H [!H1 !H2]7 !H1 !H3
 
-;K [[R4]3 R5]2
+K [[R4]3 R5]2
  
 A @101 o1 V104
 A  !A7 !A8 !A7 !A9 
 A [!A10 !A11 !A12 !A13
 A  !A14 !A15 !A16 !A17]2
 
-B @023 o5 V112
+B @099 o5 V112
 B !B10 !B11 !B12 !B13
 B !B10 !B14 !B15 !B16
 B [!B17 !B18 !B19 !B20 : !B21]2 !B22
 
-C @023 o5 V112
-C [!C5 !C6 !C7 : !C8]2 !C10
+C @099 o5 V112
+C [!C5 !C6 : !C7 !C8]2 !C9 !C10
 C [!C11 !C12 !C13 !C14]2
 
-;D @030 o4 V104
-;D !D7 !D8 !D9 !D10
-;D [!D11 !D12 : !D13]2 !D14
+D @030 o4 V104
+D !D7 !D8 !D9 !D10
+D [!D11 !D12 : !D13]2 !D14
 
-;E @074 o4 V110
-;E [!E6 !E7 !E8 : !E9]2 !E10
-;E [!E11 !E12 !E8 !E9
-;E  !E9  !E12 !E8 !E9]2
+E @074 o4 V110
+E [!E6 !E7 !E8 : !E9]2 !E10
+E [!E11 !E12 !E8 !E9
+E  !E9  !E12 !E8 !E9]2
 
-;F @101 o3 V114 
-;F [r1]7 !F8
-;F !F9 !F10 !F11 !F12
-;F !F9 !F10 !F13 !F14
-;F !F9 !F10 !F11 !F12
-;F !F9 !F10 !F13 !F15
+F @101 o4 V114 
+F [r1]7
+F !F8
+F !F9 !F10 !F11 !F12
+F !F9 !F10 !F13 !F14
+F !F9 !F10 !F11 !F12
+F !F9 !F10 !F13 !F15
 
-;G V14
-;G [[!G6 : !G7]2 : !G8]2 !G9
-;G !G10 !G11 !G12
-;G !G13 !G14 !G15 !G16
-;G !G17 !G18 !G19 !G17
+G o3 V14
+G [[!G6 : !G7]2 : !G8]2 !G9
+G !G10 !G11 !G12
+G !G13 !G14 !G15 !G16
+G !G17 !G18 !G19 !G17
 
-;H V14 o3
-;H [!H4 !H5 !H6 : !H7]2 !H8
-;H !H9 !H10 !H11
-;H !H12 !H13 !H14 !H15
-;H !H15 !H16 !H14 !H15
+H o3 V14
+H [!H4 !H5 !H6 : !H7]2 !H8
+H !H9 !H10 !H11
+H !H12 !H13 !H14 !H15
+H !H15 !H16 !H14 !H15
 
-;K R6 R7
-;K [R4]3 R5
-;K [R4]3 : R5
-
-; @TODO FGHK
-; @TODO FIX CHANNELS
+K R6 R7
+K [R4]3 R5
+K [R4]3 : R5
 
 ; LOCAL LOOP END
-ABCEFGHK ]2
-;K R8
+ABCDEFGHK ]2
+K R8
 
 ; CHORUS 2
 
-ABCEFGH _M+1
+ABCDEFGH _M+1
 
 A @074 o5 V104
 A [!A4 !A5 !A4 !A6]4
 
 B @030 o3 V104
 B !B3 !B4 !B3 !B5
-B @023 o6 V116
+B @099 o6 V116
 B !B6 [!B7]6 !B8 [!B7]6 !B9
 
 C @101 o2 V110
 C [!C4]4
 
-;D @101 o4 V110
-;D [!D3 !D4 !D5 !D3 !D4 !D6]2
+D @101 o4 V110
+D [[!D3 !D4 : !D5]2 !D6]2
 
-;E @074 o3 V110
-;E [!E3 !E4 !E3 !E5]4
+E @074 o4 V110
+E [!E3 !E4 !E3 !E5]4
 
-;F @101 o3 V110
-;F [[!F4 !F5 : !F6]2 !F7]2
+F @101 o3 V110
+F [[!F4 !F5 : !F6]2 !F7]2
 
-;GH @1 l8 v15
-;G o4
-;H o3
-;G [!G3 !G4]7 !G3 !G5
-;H [!H1 !H2]7 !H1 !H3
+GH @1 l8 v15
+GH o4
+G [!G3 !G4]7 !G3 !G5
+H [!H1 !H2]7 !H1 !H3
 
-
-;K [R4]3 R5
-;K [R4]3 R5
+K [R4]3 R5
+K [R4]3 R5
 
 ; TRANSITION
 
@@ -381,35 +352,35 @@ R9 @16c8 r16 @4c8 r16 @2c8  ; lasts 1/2
 A @101 o1 V104
 A !A7 !A8 !A7 !A9
 
-B @023 o5 V112
+B @099 o5 V112
 B !B10 !B11 !B12 !B13
 B !B10 !B14 !B15 !B16
 
-C @023 o5 V112
-C [!C5 !C6 !C7 : !C8]2 !C10
+C @099 o5 V112
+C [!C5 !C6 : !C7 !C8]2 !C9 !C10
 
-;D @030 o4 V104
-;D !D7 !D8 !D9 !D10
+D @030 o4 V104
+D !D7 !D8 !D9 !D10
 
-;E @074 o4 V110
-;E [!E6 !E7 !E8 : !E9]2 !E10
+E @074 o4 V110
+E [!E6 !E7 !E8 : !E9]2 !E10
 
-;F @101 o3 V114 
-;F [r1]7 !F8
+F @101 o4 V114 
+F [r1]7 !F8
 
-;G V14
-;G [[!G6 : !G7]2 : !G8]2 !G9
+G o3 V14
+G [[!G6 : !G7]2 : !G8]2 !G9
 
-;H V14 o3
-;H [!H4 !H5 !H6 : !H7]2 !H8
+H o3 V14
+H [!H4 !H5 !H6 : !H7]2 !H8
 
-;K R6 R7
+K R6 R7
 
 ; SILENCE
 
-ABCEFGH r2
+ABCDEFGH r2
 
-;K R9
+K R9
 
 ; ENDING
 
@@ -417,7 +388,7 @@ A @101 o1 V104
 A [!A10 !A11 !A12 !A13
 A  !A14 !A15 !A16 !A17]7
 
-B @023 o6 V112
+B @099 o6 V112
 B !B17 !B18 !B19 !B20 !B21
 B > [!B23 : !B24]2 !B25
 B > !B26 !B27 !B28
@@ -426,26 +397,24 @@ B !B32 !B33 !B34 !B35
 B !B36 !B37 !B38 !B39
 B !B32 !B33 !B34 !B35
 
-C @023 o5 V112
+C @099 o5 V112
 C [!C11 !C12 !C13 !C14]3
 C !C15 !C16 !C17 !C18
 C !C19 !C20 !C21 !C22
 C !C23 !C24 !C25 !C26
 C !C19 !C20 !C21 !C22
 
-;D [!D15]7
+D [!D15]7
 
-;E > [!E13 !E14 !E15 !E13]14
+E > [!E13 !E14 !E15 !E13]14
 
-;F [!F9 !F10 !F11 !F12
-;F  !F9 !F10 !F13 !F14]7
+F [!F9 !F10 !F11 !F12
+F  !F9 !F10 !F13 !F14]7
 
-;G < [!G13 !G14 !G15 !G16
-;G    !G17 !G18 !G19 !G17]7
+G < [!G13 !G14 !G15 !G16
+G    !G17 !G18 !G19 !G17]7
 
-;H < [!H12 !H13 !H14 !H15
-;H    !H15 !H16 !H14 !H15]7
+H < [!H12 !H13 !H14 !H15
+H    !H15 !H16 !H14 !H15]7
 
-;K [[R4]3 R5]7
-
-;I [r1]56
+K [[R4]3 R5]7

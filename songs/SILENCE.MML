@@ -1,0 +1,113 @@
+#Title        Silence
+#Composer     U2
+#Arranger     Jonath
+#Option       /v/c
+#DT2Flag      on
+#Filename     .M2
+#Tempo        120
+
+@011 3 7 31 4 1 2 3 32 0  6 7 0 0 31  0 0  2 15 25 2 2 3 0 0 31 15 0  2 5  0 2  0 7 0 0 31  0 0  8  2 0 0 2 3 0 0   ; GUITAR
+@012 4 7 21 4 2 4 2 40 0 12 3 0 0 24 12 4  6  2  0 0 4 7 0 1 21  4 2  4 2 35 0  6 7 0 0 24 12 4  6  2 0 0 2 3 0 1   ; PIANO
+@023 4 7 31 0 0 2 0 30 3  4 3 0 0 31  2 0  7  3  0 0 4 3 0 0 31  0 0  2 0 31 3  2 7 0 0 31  2 0  7  3 0 0 4 7 0 0   ; TRUMPET
+@030 4 6 30 1 0 1 1 24 3  4 3 0 0 13  2 0  6  0  0 1 8 3 0 0 30  1 0  1 1 24 3  4 7 0 0 13  2 0  6  0 0 1 8 7 0 0   ; LEAD
+@068 2 7 14 6 2 6 1 25 2  2 4 0 0 17  8 2  9  1 31 1 6 5 0 0 20  7 1  6 2 42 0  2 3 0 0 17  4 1  8  2 0 0 4 2 0 0   ; VIOLIN
+@074 0 4 31 7 7 9 2 28 3  6 6 0 0 31  6 6  9  1 58 3 5 6 0 0 31  9 6  9 1 22 2  0 6 0 0 31  6 8  9 15 0 2 1 6 0 0   ; BASS
+@099 5 7 31 0 0 0 0 29 0  1 0 0 0 31 14 3 15  3  0 0 1 0 0 0 31 14 3 15 3  0 0  1 0 0 0 31 14 3 15  3 0 0 1 0 0 0   ; SYNTH 
+@101 4 7 28 0 8 0 3 32 2 12 3 0 0 26 10 7  6  2  0 1 4 3 0 0 28  0 8  0 3 30 2 12 7 0 0 26 10 7  6  2 0 1 4 7 0 0   ; PIANO
+@181 4 7 31 0 0 0 0 27 0  8 7 0 0 31 16 0  8  2  0 0 4 7 0 0 31  0 0  0 0 30 0  8 3 0 0 31 16 0  8  2 0 0 4 3 0 0   ; B PIANO
+@250 5 7 31 2 6 8 6 29 0  4 0 0 0 31  2 6  8  6  0 0 4 4 0 0 31  0 6  8 6  0 0  4 4 0 0 31  6 6  8  6 0 0 2 4 0 0   ; LEAD 2
+@251 5 7 31 0 0 0 0 28 0  8 0 0 0 31 14 3 15  3  0 0 2 0 0 0 31 14 3 15 3  0 0  6 0 0 0 31 14 3 15  3 0 0 6 0 0 0   ; ORGAN
+
+; MELODY 1
+!A1 c8 g8 c8 f8 > c8 < g8 a16 g16 f8
+!A2 c8 g8 c8 f8 > c8 < g16 a16 g8 f8
+!A3 > c8 < g8 c8 f8 g+16 g16 f16 g16 a+8 > c8
+!A4 d+8 d8 d+16 d16 c8 < a+16 g16 f16 g16 d+8 c8
+!A5 < a+8 > c8 d+8 f8 d+16 f16 g8 a+8 > c8 <
+!A6 d+16 f16 g16 a+16 > c16 d16 d+8 < a+16 b16 > c8 < f16 g16 a+16 > c16 <
+!A7 f8 g8 c8 f8 > c8 < g8 a16 g16 f8
+!A8 f8 g8 r2.
+
+!B1 [c8 g8]2 [c8 a8]2
+!B2 [c8 g8]2 [c8 f8]2
+!B3 [c8 g8]2 [c8 g+8]2
+!B4 c8 g1
+
+!C1 c1
+!C2 g+1
+
+!D1 c8 g r > c r < g r f r g r > c r < g r
+!D2 < g8 > c r g r c r < g r > g+ r f r c r
+!D3 < g8 > c r g r c r < g r > d+ r > c r < d+ r
+!D4 c8 r2..
+
+A t60
+A @099 V116
+B @068 V110
+C @074 V112
+D @181 V106
+G @8 V13
+A o5
+B o5
+C o4
+D o3 l16
+G o5
+
+B MWA0 MA24,1,4,3 *1
+
+AG [!A1 !A2]2
+AG !A3 !A4 !A5 !A6
+AG !A7 !A2 !A1 !A2
+AG !A3 !A4 !A5 !A6
+AG !A8
+
+B [!B1 !B2]2
+B [!B3 !B2]2
+B [!B1 !B2]2
+B [!B3 !B2]2
+B !B4
+
+C r8 [!C1]4 <
+C [!C2]4 >
+C [!C1]4 <
+C [!C2]4 r2.. >
+
+D [!D1]4
+D [!D2 !D3]2
+D [!D1]4
+D [!D2 !D3]2
+D !D4
+
+;Rhythm Channel K => SSG Channel I (= SSG#2) + PCM Rhythm Module
+;SSG Rhythm Presets
+;@#    RHY## L/R Percussion    Translation
+;@1    RHY#0 LR  Bass Drum        o1 b
+;                                 o2 c
+;@2    RHY#1 LR  Snare Drum 1     o2 d
+;@4    RHY#4  R  Low Tom          o2 f
+;                                 o2 a
+;@8    RHY#4 LR  Middle Tom       o2 b
+;                                 o3 c
+;@16   RHY#4 L   High Tom         o2 g
+;                                 o3 d
+;@32   RHY#5 LR  Rim Shot         o1 g
+;                                 o2 c+
+;@64   RHY#1 LR  Snare Drum 2     o2 e
+;@128  RHY#3 L   Hi-Hat Close     o2 f+    \h
+;               (Hi-Hat Pedal)    o2 g+    \h
+;@256  RHY#2 L   Hi-Hat Open      o2 a+    \h
+;@512  RHY#2 LR  Crash Cymbal 1   o3 c+
+;@1024 RHY#2  R  Ride Cymbal      o3 d+
+;                                 o3 b
+
+R0 @1c r @256c r @128c r @1c r @128c r @256c r @2c r8.
+R1 @1c r @256c r @128c r @1c r @128c r @64c r @2c r8.
+R2 @1c r @256c r @128c r @1c r @128c r @256c r @512c r @256c r
+R3 @1c r @2c r @128c @128c @1c r @2c r @128c r @128c r @1c r
+
+K l16
+K [R0 R1]3 R0 R2
+K [R0 R1]3 R0 R2
+K R3
+
+I [r1]17

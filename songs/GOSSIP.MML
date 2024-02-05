@@ -1,0 +1,262 @@
+#Title        Zombie Night Dance ~ Spirit Gossip Laugh
+#Composer     LENK64
+#Arranger     Jonath
+#Option       /v/c
+#DT2Flag      on
+#Filename     .M2
+#Tempo        70
+
+@011 3 7 31 4 1 2 3 32 0  6 7 0 0 31  0 0  2 15 25 2 2 3 0 0 31 15 0  2 5  0 2  0 7 0 0 31  0 0  8  2 0 0 2 3 0 0   ; GUITAR
+@012 4 7 21 4 2 4 2 40 0 12 3 0 0 24 12 4  6  2  0 0 4 7 0 1 21  4 2  4 2 35 0  6 7 0 0 24 12 4  6  2 0 0 2 3 0 1   ; PIANO
+@023 4 7 31 0 0 2 0 30 3  4 3 0 0 31  2 0  7  3  0 0 4 3 0 0 31  0 0  2 0 31 3  2 7 0 0 31  2 0  7  3 0 0 4 7 0 0   ; TRUMPET
+@030 4 6 30 1 0 1 1 24 3  4 3 0 0 13  2 0  6  0  0 1 8 3 0 0 30  1 0  1 1 24 3  4 7 0 0 13  2 0  6  0 0 1 8 7 0 0   ; CHORD
+@068 2 7 14 6 2 6 1 25 2  2 4 0 0 17  8 2  9  1 31 1 6 5 0 0 20  7 1  6 2 42 0  2 3 0 0 17  4 1  8  2 0 0 4 2 0 0   ; VIOLIN
+@074 0 4 31 7 7 9 2 28 3  6 6 0 0 31  6 6  9  1 58 3 5 6 0 0 31  9 6  9 1 22 2  0 6 0 0 31  6 8  9 15 0 2 1 6 0 0   ; BASS
+@099 5 7 31 0 0 0 0 29 0  1 0 0 0 31 14 3 15  3  0 0 1 0 0 0 31 14 3 15 3  0 0  1 0 0 0 31 14 3 15  3 0 0 1 0 0 0   ; SYNTH
+@101 4 7 28 0 8 0 3 32 2 12 3 0 0 26 10 7  6  2  0 1 4 3 0 0 28  0 8  0 3 30 2 12 7 0 0 26 10 7  6  2 0 1 4 7 0 0   ; PIANO
+@181 4 7 31 0 0 0 0 27 0  8 7 0 0 31 16 0  8  2  0 0 4 7 0 0 31  0 0  0 0 30 0  8 3 0 0 31 16 0  8  2 0 0 4 3 0 0   ; B PIANO
+@250 5 7 31 2 6 8 6 29 0  4 0 0 0 31  2 6  8  6  0 0 4 4 0 0 31  0 6  8 6  0 0  4 4 0 0 31  6 6  8  6 0 0 2 4 0 0   ; LEAD
+@251 5 7 31 0 0 0 0 28 0  8 0 0 0 31 14 3 15  3  0 0 2 0 0 0 31 14 3 15 3  0 0  6 0 0 0 31 14 3 15  3 0 0 6 0 0 0   ; ORGAN
+
+!A1   > d8 < a8 a+8 g8 > c+8 < f+8 > c+8 < f8                        ; lasts 1
+!A2   d8 f8 e8 f8 > c+8 < f+8 > c+8 < a8          			         ; lasts 1
+!A3   d8 f8 e8 f8 > c+8 < f+8 > c+16 < a+16 a16 f+16                 ; lasts 1
+!A4   a+8. f16 f+8 a8 a+8. r16 a8. r16                               ; lasts 1
+!A5   a4. r8 f+4. r8                                                 ; lasts 1
+!A6   g+8. f16 f+8 a8 g+8. r16 f+8. r16                              ; lasts 1
+!A7   f4. g+4. f8.  r16                                              ; lasts 1
+!A8   f4. d4.  c+8. r16                                              ; lasts 1
+!A9   d8 f8 e16 f16 g8 a8. r16 > c+8. r16                            ; lasts 1
+!A10  d8 < a8 > c8 < g8 a8 > c+8 < g+8 > c+8                         ; lasts 1
+!A11  d8 f8 e16 d16 c8 < a8. r16 > c+8. r16                          ; lasts 1
+!A12  d8 < a8 > d8 < g8 > c8. r16 d8. r16                            ; lasts 1
+!A13  d8 < a8 > c+16 < a16 g8 a8. r16 > c+8. r16                     ; lasts 1
+!A14  d8 f8 e16 d16 c8 < a8. r16 > e8.  r16                          ; lasts 1
+!A15  d8 < a8 g8 > c8 d4. c16 < a16                                  ; lasts 1
+!A16  a+8 f8 f+8 d+8 a8 d8 a8 c+8                                    ; lasts 1
+!A17  < a+8 > c+8 c8 c+8 a8 d8 a8 f8                                 ; lasts 1
+!A18  < a+8 > c+8 c8 c+8 a8 d8 a16 f16 a16 > c16 <                   ; lasts 1
+
+!B1   a8 > d8 c16 d16 e8 f8. r16 a8. r16                             ; lasts 1
+!B2   a8 f8 a8 e8 f8 a8 f8 a8                                        ; lasts 1
+!B3   a+8 > d8 c16 < a+16 a8 f8. r16 a8. r16                         ; lasts 1
+!B4   a8 f8 a8 e8 a8. r16 a8. r16                                    ; lasts 1
+!B5   a8 f8 a16 f16 e8 f8. r16 a8. r16                               ; lasts 1
+!B6   a8 f8 e8 a8 a4. a16 f16 <                                      ; lasts 1
+
+!C1   r2... > e16 <                                                  ; lasts 1
+!C2   [d8 > d16 r16 <]2 [c+8 > c+16 r16 <]2                          ; lasts 1
+!C3   [a+8 > a+16 r16 <]4 									         ; lasts 1
+!C4   [a8  > a16  r16 <]4 									         ; lasts 1
+!C5   [g+8 > g+16 r16 <]4 									         ; lasts 1
+!C6   [g8  > g16  r16 <]4 									         ; lasts 1
+!C7   d4 r2.                                                         ; lasts 1
+!C8   d8 > d16 < a16 d8 > d16 < r16 d8 > d16 < r16  d8 >  d16 <  a16 ; lasts 1
+!C9   c8 > c16 < g16 c8 > c16 < r16 c8 > c16 < r16  c8 >  c16 <  g16 ; lasts 1
+!C10  c8 > c16 < g16 c8 > c16 < r16 c8 > c16 < r16 c+8 > c+16 < g+16 ; lasts 1
+!C11  c8 > c16 < g16 c8 > c16 < r16 c8 > c16 < r16 c+8 > c+16 <  r16 ; lasts 1
+!C12  [a+8 r8]4                                                      ; lasts 1
+!C13  [g+8 r8]4                                                      ; lasts 1
+!C14  [g+8 r8]3 a8 r8                                                ; lasts 1
+
+!D1   [d8 r8]2 [c+8   r8]2                                           ; lasts 1
+!D2   [d8 r8]2 [c+8 : r8]2 > c16 e16 <                               ; lasts 1
+!D3   d1                                                             ; lasts 1
+!D4   r2 a4.. r16                                                    ; lasts 1
+!D5   r2 g4.. r16                                                    ; lasts 1
+
+; INTRO
+
+AB MA0,1,4,3 *A2 MMA2
+
+; @TODO trumpet after 17
+
+A t70
+A @099 o4 V110
+G @4 o4 v14
+E @030 o3 V96 D-2
+AGE _M0   [!A1   !A2]2           ; [01-04]
+AGE       [!A1 : !A2]2 !A3       ; [05-08]
+AGE _M-4  [!A1   !A2]2           ; [09-12]
+AGE       [!A1 : !A2]2 !A3       ; [13-16]
+AGE _M0     !A4  !A5  !A6  !A7   ; [17-20]
+AGE         !A4  !A5  !A6  !A8   ; [21-24]
+AGE         !A9 !A10 !A11 !A12   ; [25-28]
+AGE        !A13 !A10 !A14 !A15   ; [29-32]
+AGE         !A9 !A10 !A11 !A12   ; [33-36]
+AGE        !A13 !A10 !A14 !A15   ; [37-40]
+AGE _M-4    !A9 !A10 !A11 !A12   ; [41-44]
+AGE        !A13 !A10 !A14 !A15   ; [45-48]
+AGE _M0   [!A16 !A17]2           ; [49-52]
+AGE       [!A16 !A17]2           ; [53-56]
+AGE       [!A16 !A17]2           ; [57-60]
+AGE       [!A16 : !A17]2 !A18    ; [61-64]
+
+; Repeat
+AGE _M0   [!A1   !A2]2           ; [65-68]
+AGE       [!A1 : !A2]2 !A3       ; [69-72]
+AGE _M-4  [!A1   !A2]2           ; [73-76]
+AGE       [!A1 : !A2]2 !A3       ; [77-80]
+
+B @023 o3 V104 D1
+H @8 o3 v9
+BH _M0   [r1]4                  ; [01-04]
+BH       [r1]4                  ; [05-08]
+BH       [r1]4                  ; [09-12]
+BH       [r1]4                  ; [13-16]
+BH       [r1]4                  ; [17-20]
+BH       [r1]4                  ; [21-24]
+BH       [r1]4                  ; [25-28]
+BH       [r1]4                  ; [29-32]
+BH        !B1 !B2 !B3 !B4       ; [33-36]
+BH        !B5 !B2 !B3 !B6       ; [37-40]
+BH _M-4   !B1 !B2 !B3 !B4       ; [41-44]
+BH        !B5 !B2 !B3 !B6       ; [45-48]
+BH       [r1]4                  ; [49-52]
+BH       [r1]4                  ; [53-56]
+BH       [r1]4                  ; [57-60]
+BH       [r1]4                  ; [61-64]
+
+; Repeat
+BH _M0   [r1]4                  ; [65-68]
+BH       [r1]4                  ; [69-72]
+BH       [r1]4                  ; [73-76]
+BH       [r1]4                  ; [77-80]
+
+C MWA0 MA24,1,6,3 *1
+D MWA0 MA24,1,4,3 *1
+
+C @074 o4 V114
+C _M0   [r1]3 !C1              ; [01-04]
+C       [!C2]4                 ; [05-08]
+C _M-4  [!C2]4                 ; [09-12]
+C       [!C2]4                 ; [13-16]
+C _M0 < !C3 !C4 !C5 !C6        ; [17-20]
+C       !C3 !C4 !C5 !C6        ; [21-24]
+C     > [!C7]4                 ; [25-28]
+C       [!C7]4                 ; [29-32]
+C       [!C8]2 !C9 !C10        ; [33-36]
+C       [!C8]2 !C9 !C10        ; [37-40]
+C _M-4  [!C8]2 !C9 !C10        ; [41-44]
+C       [!C8]2 !C9 !C10        ; [45-48]
+C       [!C8]2 !C9 !C10        ; [49-52]
+C       [!C8]2 !C9 !C11        ; [53-56]
+C _M0 < [!C12]2 !C13 !C14      ; [57-60]
+C       [!C12]2 !C13 !C14      ; [61-64]
+
+; Repeat
+C @074 o4 V114
+C _M0   [r1]3 !C1              ; [65-68]
+C       [!C2]4                 ; [69-72]
+C _M-4  [!C2]4                 ; [73-76]
+C       [!C2]4                 ; [77-80]
+
+D @074 o3 V114
+D _M0   [!D1]3 !D2             ; [01-04]
+D       [r1]4                  ; [05-08]
+D       [r1]4                  ; [09-12]
+D       [r1]4                  ; [13-16]
+D       [r1]4                  ; [17-20]
+D       [r1]4                  ; [21-24]
+D       [r1]4                  ; [25-28]
+D       [!D3]4                 ; [29-32]
+D @099 o3 V108
+D       [!D4]2 [!D5]2          ; [33-36]
+D       [!D4]2 [!D5]2          ; [37-40]
+D _M-4  [!D4]2 [!D5]2          ; [41-44]
+D       [!D4]2 [!D5]2          ; [45-48]
+D       [r1]4                  ; [49-52]
+D       [r1]4                  ; [53-56]
+D _M0   [r1]4                  ; [57-60]
+D       [r1]4                  ; [61-64]
+
+; Repeat
+D @074 o3 V114
+D _M0   [!D1]3 !D2             ; [65-68]
+D       [r1]4                  ; [69-72]
+D       [r1]4                  ; [73-76]
+D       [r1]4                  ; [77-80]
+
+;Rhythm Channel K => SSG Channel I (= SSG#2) + PCM Rhythm Module
+;SSG Rhythm Presets
+;@#    RHY## L/R Percussion    Translation
+;@1    RHY#0 LR  Bass Drum        o1 b
+;                                 o2 c
+;@2    RHY#1 LR  Snare Drum 1     o2 d
+;@4    RHY#4  R  Low Tom          o2 f
+;                                 o2 a
+;@8    RHY#4 LR  Middle Tom       o2 b
+;                                 o3 c
+;@16   RHY#4 L   High Tom         o2 g
+;                                 o3 d
+;@32   RHY#5 LR  Rim Shot         o1 g
+;                                 o2 c+
+;@64   RHY#1 LR  Snare Drum 2     o2 e
+;@128  RHY#3 L   Hi-Hat Close     o2 f+    \h
+;               (Hi-Hat Pedal)    o2 g+    \h
+;@256  RHY#2 L   Hi-Hat Open      o2 a+    \h
+;@512  RHY#2 LR  Crash Cymbal 1   o3 c+
+;@1024 RHY#2  R  Ride Cymbal      o3 d+
+;                                 o3 b
+
+;b 	Bass Drum
+;s 	Snare
+;t 	Tom
+;h 	Hi-hat
+;c 	Cymbal
+;i 	Rim Shot
+
+R0 @512\b\c\i c r r r                                        ; lasts 1/4
+R1 @64   c r @1\s   c @1   c @1     c @1 c @1\s   c r        ; lasts 1/2
+R2 @64   c r @1\s   c @128 c @256   c @1 c @1     c r        ; lasts 1/2
+R3 @64\t c r @1\s\t c @1   c @1     c @1 c @1\s\t c r        ; lasts 1/2
+R4 @64\t c r @1\s\t c @128 c @256\t c @1 c @1     c r        ; lasts 1/2
+
+R5 @512\b\c\i c8 @1\t c8 @64\t c8 @1\t c8 @64\b c8 @1\t c8 @128c8 @1\t c @1 c                     ; lasts 1
+R6 @512\b\c\i c8 @1\t c8 @64\t c8 @1\t c8 @64\b c @1 c @1\t c @1 c @128c @1 c @1\t c @1 c         ; lasts 1
+
+R7 @512\b\c\i c8 @64 c8 @1 c8 @32 c8                                       ; lasts 1/2
+R8 @1 c8 @64 c8 @1 c @2 c @4 c8 @32 c8 @128 c8 @32\b c8 @256 c8            ; lasts 1
+R9 @1 c8 @64 c8 @1 c @1 c @1 c @1 c                                        ; lasts 1/2
+
+R10 @512\b\c\i c r @256 c r @128\b c r @2 c r8. @512 c8    r @1 c @1\s c       r      ; lasts 1
+R11 @64        c r @256 c r @128\b c r @2 c r8. @512 c8 @1 c @1 c @1\s c @1s\s c      ; lasts 1
+R12 @64        c r @256 c r @128\b c r @2 c r8. @512 c8    r @1 c @1\s c       r      ; lasts 1
+
+R13 @512\b\c\i c8 r8  @128 c r @128 c r8. @128\h c r8. @128 c r            ; lasts 1
+R14 @128       c  r8. @128 c r @128 c r8. @128\h c r8. @128 c r            ; lasts 1
+R15 @128       c  r8. @128 c r @128 c r @1 c c c c @64c @1 c @1\t c @1\h c ; lasts 1
+
+R16 @512\b\c\i c8 @2 c r @128\s c r @128\s c r @1 c r @128\s\c c r @1 c @1   c @128\b c        r       ; lasts 1
+R17 @1        c r @2 c r @128\s c r @128\s c r @1 c r @128\s\c c r @1 c @128 c @128\b c @128\b c       ; lasts 1
+R18 @1        c r @2 c r @128\s c r @128\s c r @1 c r @128\s\c c r @1 c @1   c @128\b c        r       ; lasts 1
+R19 @1        c r @2 c r @128\s c r @128\s c r @1 c r @128\s\c c r @1 c @1   c @128\b c @1     c       ; lasts 1
+
+R20 @1 c r @1 c r @128\b c r @128\b c r @128   c    r @128\b\s c    r @1 c @1 c @128\b c    r        ; lasts 1
+R21 @1 c r @1 c r @128\b c r @128\b c r @128   c    r @128\b\s c    r @1 c @1 c @128\b c @1 c        ; lasts 1
+R22 @1 c r @1 c r @128\b c r @128\b c r @128\b c @1 c @128\b   c @1 c @2 c @1 c @128\b c @1 c        ; lasts 1
+
+K l16
+K R0 [R1 R2]4       ; [01-04]
+K R0 [R3 R4]3 R3    ; [05-08]
+K [R5]4             ; [09-12]
+K [R5]3 R6          ; [13-16]
+K R7 [R8]3 R9       ; [17-20]
+K R7 [R8]3 R9       ; [21-24]
+K R10 R12 R11 R12   ; [25-28]
+K R10 R12 R11 R12   ; [29-32]
+K R13 [R14]3        ; [33-36]
+K R13 [R14]2 R15    ; [37-40]
+K R16 R17 R18 R19   ; [41-44]
+K R16 R17 R18 R19   ; [45-48]
+K [R20 : R21]2 R22  ; [49-52]
+K [R20 : R21]2 R22  ; [53-56]
+K R13 [R14]3        ; [57-60]
+K R13 [R14]2 R15    ; [61-64]
+
+; Repeat
+
+K R0 [R1 R2]4       ; [65-68]
+K R0 [R3 R4]3 R3    ; [69-72]
+K [R5]4             ; [73-76]
+K [R5]3 R6          ; [77-80]
